@@ -1,6 +1,6 @@
 #!/bin/bash
 stty erase ^H
-echo && echo -n -e "请输入h9-miner-spacemesh-linux-amd64的所在路径，示例：/linux: " && read PlotServerPath
+echo && echo -n -e '请输入h9-miner-spacemesh-linux-amd64的所在路径，示例：/linux:' && read PlotServerPath
 #开启plot
 sed -i 's/disablePlot: true/disablePlot: false/g' /$PlotServerPath/config.yaml
 #生成bash
