@@ -1,5 +1,5 @@
 #!/bin/bash
-stty erase ^H
+stty erase ^Hss
 
 red='\e[91m'
 green='\e[92m'
